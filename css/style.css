@@ -1,0 +1,614 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+
+/*网页头部*/
+.header{
+	height:70px;
+	background:url(../images/bg1.jpg);
+	}
+.header .headerbox{
+	width:990px;
+	height:70px;
+	margin:0 auto;
+	}
+.header .headerbox img{
+	margin:7px 0 0 6px;
+	float:left;
+	}
+.header .headerbox .menu1{
+	width:112px;
+	height:40px;
+	float:left;
+	border-left:1px solid #000000;
+	background:url(../images/triangle.jpg) no-repeat right 13px;
+	margin:20px 0 0 18px;
+	}
+.header .headerbox .menu1 a{
+	text-decoration:none;
+	font-size:20px;
+	color:#66aa00;
+	line-height:34px;
+	padding-left:8px;
+	}
+.header .headerbox form{
+	float:right;
+	width:428px;
+	height:32px;
+	margin-top:28px;
+	}
+.header .headerbox form .txt{
+	width:378px;
+	height:32px;
+	float:left;
+	background:#bdc0c3;
+	font-size:12px;
+	color:#4c4c4c;
+	text-indent:1em;
+	border:none;
+	border-radius:1px;
+	}
+.header .headerbox form .btn{
+	width:50px;
+	height:32px;
+	float:left;
+	border:none;
+	background:#66aa00 url(../images/search.jpg) no-repeat center center;
+	border-radius:1px;
+	}
+
+
+/*网页导航*/
+.nav{
+	height:36px;
+	background:#66aa00;
+	}
+.nav .navbox{
+	width:990px;
+	height:36px;
+	margin:0 auto;
+	}
+.nav .navbox .main{
+	float:left;
+	font-size:15px;
+	line-height:36px;
+	color:#ffffff;
+	text-decoration:none;
+	padding:0px 15px 0px 36px;
+	background:#528800 url(../images/icon1.jpg) no-repeat 16px 12px;
+	}
+.nav .navbox ul li{
+	float:left;
+	list-style:none;
+	font-size:15px;
+	text-align:center;
+	line-height:36px;
+	}
+.nav .navbox ul li a{
+	text-decoration:none;
+	color:#ffffff;
+	}
+.nav .navbox .ul1{
+	float:left;
+	}
+.nav .navbox .ul1 li{
+	padding:0 17px;
+	}
+.nav .navbox .ul1 li:nth-child(1){
+	background:url(../images/shortline.jpg) no-repeat right center;
+	}
+.nav .navbox .ul2{
+	float:right;
+	}
+.nav .navbox .ul2 img{
+	padding-right:4px;
+	}
+.nav .navbox .ul2 li{
+	padding:0 11px;
+	}
+.nav .navbox .ul2 li:nth-child(1){
+	background:url(../images/shortline.jpg) no-repeat right center;
+	}
+
+
+/*网页招牌*/
+.bannerbox{
+	height: 394px;
+}
+.bannerbox .banner{
+	height: 358px;
+	width: 75%;
+	margin: 0 auto;
+}
+.bannerbox .banner img{
+	width: 100%;
+	height: 100%;
+}
+.bannerbox .msg{
+	width: 1022px;
+	height: 36px;
+	margin: 0 auto;
+	position: relative;
+	background: url(../images/icon4.jpg) no-repeat left center;
+}
+.bannerbox .msg p{
+	font-size: 12px;
+	line-height: 36px;
+	padding-left: 32px;
+}
+.bannerbox .msg img{
+	position: absolute;
+	top: 16px;
+	left: 491px;
+}
+
+
+/*网页内容*/
+.contentbox{
+	height: 1223px;
+	background: #f0f0f0;
+}
+.contentbox .content{
+	width: 990px;
+	height: 1161px;
+	margin: 0 auto;
+}
+.contentbox .content .content1 .left1{
+	width: 747px;
+	height: 274px;
+	float: left;
+}
+.contentbox .content .content1 .right1{
+	width: 240px;
+	height: 281px;
+	float: right;
+	position: relative;
+	background: url(../images/position.jpg) 0 0 no-repeat;
+	top: -7px;
+    left: -5px;
+}
+.contentbox .content .content2 .left2{
+	width: 747px;
+	height: 537px;
+	float: left;
+}
+.contentbox .content .content2 .right2{
+	width: 235px;
+	height: 537px;
+	float: right;
+	position: relative;
+	top: -7px;
+}
+.contentbox .content .content3 .left3{
+	width: 747px;
+	height: 411px;
+	float: left;
+}
+.contentbox .content .content3 .right3{
+	width: 235px;
+	height: 411px;
+	float: right;
+	position: relative;
+	top: -7px;
+}
+
+
+.contentbox .content h3{
+	font-size: 20px;
+	line-height: 51px;
+	font-weight: normal;
+}
+.contentbox .content .left1 h3{
+	background: url(../images/bg2.jpg) no-repeat left center;
+	padding-left: 20px;
+}
+.contentbox .content .left2 h3{
+	background: url(../images/bg2.jpg) no-repeat left center;
+	padding-left: 20px;
+}
+.contentbox .content .left3 h3{
+	background: url(../images/bg2.jpg) no-repeat left center;
+	padding-left: 20px;
+}
+.contentbox .content .right1 h3{
+	color: #579b00;
+	padding-left: 14px;
+}
+
+
+.contentbox .content .content1 .left1 dl{
+	width: 248px;
+	height: 223px;
+	background: #fff;
+	float: left;
+}
+.contentbox .content .content1 .left1 dl dt{
+	width: 248px;
+	height: 80px;
+}
+.contentbox .content .content1 .left1 dl dd{
+	width: 248px;
+	height: 143px;
+}
+.contentbox .content .content1 .left1 dl dd p{
+	font-size: 12px;
+	line-height: 18px;
+	padding-left: 20px;
+}
+.contentbox .content .content1 .left1 dl dd p span{
+	font-size: 13px;
+	line-height: 35px;
+}
+.contentbox .content .content1 .left1 dl dd a{
+	display: block;
+	width: 70px;
+	height: 28px;
+	font-size: 11px;
+	line-height: 28px;
+	color: #fff;
+	background: #6db33b;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 1px;
+	margin:10px 0 0 20px;
+}
+.contentbox .content .content1 .right1 ul{
+	width: 207px;
+	height: 155px;
+	margin: 10px 0 0 14px;
+}
+.contentbox .content .content1 .right1 ul li{
+	list-style: none;
+	border-bottom: 1px dashed #3c3635;
+	font-size: 13px;
+	line-height: 31px;
+	text-indent: 1em;
+	background: url(../images/bg3.jpg) left center no-repeat;
+}
+.contentbox .content .content1 .right1 ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.contentbox .content .content1 .right1>a{
+	position: absolute;
+	right: -128px;
+    top: 26px;
+}
+
+.contentbox .content .content2 .left2 .leftbox{
+	width: 747px;
+	height: 486px;
+	background: #fff;
+}
+.contentbox .content .content2 .left2 .leftbox .box{
+	width: 321px;
+	height: 209px;
+	margin: 22px 28px 11px 24px;
+	float: left;
+}
+.contentbox .content .content2 .left2 .leftbox .box h4{
+	font-size: 18px;
+	line-height: 39px;
+	font-weight: normal;
+	background: url(../images/bg4.jpg) left center no-repeat;
+	padding-left: 39px;
+}
+.contentbox .content .content2 .left2 .leftbox .box a{
+	font-size: 11px;
+	text-decoration: none;
+	color: #000;
+}
+.contentbox .content .content2 .left2 .leftbox .box dl{
+	width: 321px;
+	height: 60px;
+}
+.contentbox .content .content2 .left2 .leftbox .box dl dt{
+	float:left;
+	width: 90px;
+	height: 60px;
+}
+.contentbox .content .content2 .left2 .leftbox .box dl dd{
+	float: left;
+	width: 223px;
+	height: 60px;
+	padding-left: 8px;
+}
+.contentbox .content .content2 .left2 .leftbox .box dl dd a{
+	font-size: 12px;
+}
+.contentbox .content .content2 .left2 .leftbox .box dl dd a span{
+	color: #aaaabc;
+}
+.contentbox .content .content2 .left2 .leftbox .box ul{
+	margin-top: 19px;
+}
+.contentbox .content .content2 .left2 .leftbox .box ul li{
+	list-style: none;
+	line-height: 22px;
+}
+.contentbox .content .content2 .left2 .leftbox .box ul li a span{
+	color: #6a0;
+}
+
+.contentbox .content .content2 .right2 dl{
+	width: 235px;
+	height: 486px;
+	background: #fff;
+}
+.contentbox .content .content2 .right2 dl dt{
+	width: 205px;
+	height: 120px;
+	padding: 11px 0 13px 12px;
+}
+.contentbox .content .content2 .right2 dl dd{
+	width: 205px;
+	height: 55px;
+	font-size: 11px;
+	line-height: 19px;
+	margin-left: 12px;
+	background: url(../images/bg5.jpg) 0 0 no-repeat;
+}
+.contentbox .content .content2 .right2 dl dd a{
+	text-decoration: none;
+	color: #000;
+	padding-left: 21px;
+}
+.contentbox .content .content2 .right2 dl dd a span{
+	color: #aaa;
+	padding-left: 21px;
+}
+.contentbox .content .content2 .right2 dl dd:nth-child(3){
+	background: url(../images/bg5.jpg) 0 -55px no-repeat;
+}
+.contentbox .content .content2 .right2 dl dd:nth-child(4){
+	background: url(../images/bg5.jpg) 0 -110px no-repeat;
+}
+.contentbox .content .content2 .right2 dl dd:nth-child(5){
+	background: url(../images/bg5.jpg) 0 -165px no-repeat;
+}
+.contentbox .content .content2 .right2 dl dd:nth-child(6){
+	background: url(../images/bg5.jpg) 0 -220px no-repeat;
+}
+.contentbox .content .content2 .right2 dl dd:nth-child(7){
+	background: url(../images/bg5.jpg) 0 -275px no-repeat;
+}
+
+.contentbox .content .content3 .left3 .smallbox{
+	width: 747px;
+	height: 205px;
+	background: #fff;
+}
+.contentbox .content .content3 .left3 .smallbox .top{
+	width: 747px;
+	height: 95px;
+}
+.contentbox .content .content3 .left3 .smallbox .top dl{
+	width: 342px;
+	height: 80px;
+	margin: 15px 10px 0 21px;
+	float: left;
+}
+.contentbox .content .content3 .left3 .smallbox .top dl dt{
+	width: 120px;
+	height: 80px;
+	float: left;
+}
+.contentbox .content .content3 .left3 .smallbox .top dl dd{
+	width: 222px;
+	height: 80px;
+	float: left;
+}
+.contentbox .content .content3 .left3 .smallbox .bottom{
+	width: 747px;
+	height: 110px;
+}
+.contentbox .content .content3 .left3 .smallbox .bottom ul li{
+	width: 213px;
+	height: 60px;
+	list-style: none;
+	margin-top: 23px;
+	padding-left: 22px;
+	float: left;
+}
+.contentbox .content .content3 .left3 .smallbox a{
+	text-decoration: none;
+	color: #000;
+}
+.contentbox .content .content3 .left3 .smallbox a p{
+	font-size: 11px;
+	line-height: 19px;
+	padding-left: 5px;
+}
+.contentbox .content .content3 .left3 .smallbox a p b{
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 22px;
+}
+.contentbox .content .content3 .left3 .smallbox a p span{
+	font-size: 11px;
+	color: #bbb;
+	line-height: 12px;
+}
+.contentbox .content .content3 .left3>img{
+	margin: 14px 0 0 1px;
+}
+
+.contentbox .content .content3 .right3 .teacher{
+	width: 235px;
+	height: 299px;
+	background: #fff;
+}
+.contentbox .content .content3 .right3 .teacher dl{
+	width: 211px;
+	height: 72px;
+	padding: 19px 12px 0 12px;
+}
+.contentbox .content .content3 .right3 .teacher dl dt{
+	width: 70px;
+	height: 72px;
+	float: left;
+}
+.contentbox .content .content3 .right3 .teacher dl dd{
+	width: 141px;
+	height: 72px;
+	float: left;
+}
+.contentbox .content .content3 .right3 .teacher dl dd p{
+	font-size: 11px;
+	line-height: 17px;
+	color: #bbb;
+}
+.contentbox .content .content3 .right3 .teacher dl dd p b{
+	font-size: 12px;
+	line-height: 21px;
+}
+
+
+/*网页尾部*/
+.footerbox{
+	height: 524px;
+	background: url(../images/footerbg.jpg) center center no-repeat;
+}
+.footerbox .footer{
+	width: 990px;
+	height: 524px;
+	margin: 0 auto;
+}
+.footerbox .footer h5{
+	color: #fff;
+	line-height: 28px;
+}
+.footerbox .footer .link{
+	width: 654px;
+	height: 239px;
+	float: left;
+}
+.footerbox .footer .link .platform{
+	width: 576px;
+	height: 94px;
+	padding: 21px 50px 0 28px;
+}
+.footerbox .footer .link .platform a{
+	display: block;
+	float: left;
+	text-decoration: none;
+	width: 96px;
+	height: 33px;
+	font-size: 12px;
+	line-height: 32px;
+	text-align: center;
+	color: #98a2ac;
+}
+.footerbox .footer .link .company{
+	width: 461px;
+	height: 94px;
+	padding: 30px 50px 0 28px;
+}
+.footerbox .footer .link .company a{
+	font-size: 10px;
+	line-height: 22px;
+	color: #98a2ac;
+	text-decoration: none;
+	padding: 0 5px;
+}
+.footerbox .footer .sundry{
+	width: 336px;
+	height: 393px;
+	float: left;
+}
+.footerbox .footer .sundry .microblog{
+	width: 235px;
+	height: 88px;
+	padding: 21px 75px 0 26px;
+}
+.footerbox .footer .sundry .microblog a{
+	display: block;
+	width: 120px;
+	height: 28px;
+	font-size: 11px;
+	line-height: 28px;
+	color: #323c46;
+	padding-left: 2px;
+	border-radius: 1px;
+	text-decoration: none;
+	background: #97a1ab url(../images/bg6.jpg) 15px 7px no-repeat;
+}
+.footerbox .footer .sundry .microblog span{
+	padding-left: 33px;
+}
+.footerbox .footer .sundry .space{
+	width: 235px;
+	height: 88px;
+	padding: 0 75px 0 26px;
+}
+.footerbox .footer .sundry .space a{
+	display: block;
+	width: 120px;
+	height: 28px;
+	font-size: 11px;
+	line-height: 28px;
+	color: #323c46;
+	padding-left: 2px;
+	border-radius: 1px;
+	text-decoration: none;
+	background: #97a1ab url(../images/bg6.jpg) 15px 7px no-repeat;
+}
+.footerbox .footer .sundry .space span{
+	padding-left: 33px;
+}
+.footerbox .footer .research{
+	width: 235px;
+	height: 108px;
+	padding: 0 75px 0 26px;
+}
+.footerbox .footer .research p{
+	font-size: 11px;
+	line-height: 17px;
+	color: #98a2ac;
+}
+.footerbox .footer .research form{
+	width: 235px;
+	height: 63px;
+}
+.footerbox .footer .research form input{
+	float: left;
+	height: 35px;
+}
+.footerbox .footer .research form p{
+	float: left;
+	line-height: 35px;
+	padding-left: 4px;
+	padding-right: 13px;
+}
+.footerbox .footer .research form input:nth-child(7){
+	width: 57px;
+	height: 28px;
+	border: none;
+	border-radius: 1px;
+}
+.footerbox .footer .research form a{
+	text-decoration: none;
+	color: #08c;
+	font-size: 11px;
+	line-height: 28px;
+	padding-left: 10px;
+}
+.footerbox .footer .copy{
+	width: 990px;
+	height: 131px;
+	font-size: 11px;
+	line-height: 18px;
+	color: #98a2ac;
+	text-align: center;
+}
+.footerbox .footer .copy a{
+	text-decoration: none;
+	border-right: 1px solid #98a2ac;
+	color: #98a2ac;
+	padding-right: 5px;
+}
+.footerbox .footer .copy a:nth-child(3){
+	border: none;
+	padding-right: 0;
+}
